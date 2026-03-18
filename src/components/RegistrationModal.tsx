@@ -43,7 +43,7 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({ isOpen, on
     
     // Simulate server call
     setTimeout(() => {
-      const validCodes = ['data_and_ai', 'emek_hefer', 'halhatz', 'shavot', 'emek hefer', 'data and ai', 'police', 'lion', 'cyber', 'niv', 'mor', 'llm'];
+      const validCodes = ['data_and_ai', 'emek_hefer', 'halhatz', 'shavot', 'emek hefer', 'data and ai', 'police', 'lion', 'cyber', 'niv', 'mor', 'llm', 'women'];
       if (validCodes.includes(coupon.trim())) {
         setIsCouponValid(true);
       } else {
